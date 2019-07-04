@@ -108,7 +108,7 @@
     </plugin>
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     
-    <plugin name="cordova-plugin-mediapicker-dmcsdk" spec="git+https://github.com/DmcSDK/cordova-plugin-mediaPicker.git">
+    <plugin name="cordova-plugin-mediapicker-dmcsdk" source="npm">>
         <variable name="IOS_PHOTO_LIBRARY_USAGE_DESCRIPTION" value="for Image Upload" />
     </plugin>
 
